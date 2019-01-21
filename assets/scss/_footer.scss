@@ -1,0 +1,26 @@
+.footer {
+	margin-top: 60px;
+	padding-top: 40px;
+	color: lighten($gray-color,12%);
+	background-color: $dark-color;
+	ul {
+		padding: 0;
+		list-style: none;
+	} 
+	a {
+		color: gray;
+
+		&:hover {
+			color: lighten($gray-color, 14%);
+		}
+	}
+
+}
+.footer-bootom {
+	margin: 20px 0;
+
+	text-align: center;
+	a {
+		color:white;
+	}
+}

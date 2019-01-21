@@ -1,0 +1,44 @@
+.main {
+      .panel-search {
+		margin: 40px 0 20px 0;
+	}
+}
+.new-films,
+.top-week {
+	.row {
+		margin-left: -7.5px;
+		margin-right: -7.5px;
+	}
+	.thumbnail {
+		margin-bottom: 15px;
+	}
+
+
+	.new-films-item,  
+	.top-week-item {
+		padding-left: 7.5px;
+		padding-right: 7.5px;
+
+		&__label {
+			text-align: center;
+			@include singl-text-shortener;
+			transition: color 0.5s;
+		}
+		&__image {
+			width: 100%;
+		}
+
+		&:hover {
+			.thumbnail {
+				background-color: $accent-color;
+			}
+			strong {
+				color:lighten($gray-color, 14%);
+			}
+		}
+	}
+}
+
+      .btn-warning {
+			float: right;
+		}
